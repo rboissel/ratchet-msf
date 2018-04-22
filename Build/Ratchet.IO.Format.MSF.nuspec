@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2016/06/nuspec.xsd">
+  <metadata>
+    <id>Ratchet.IO.Format.MSF</id>
+    <version>1.0.0.0</version>
+    <authors>rboissel</authors>
+    <owners>rboissel</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/rboissel/ratchet-msf</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/rboissel/ratchet/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <description>Ratchet MSF is a library part of the ratchet project that can be used to decode MSF streams.</description>
+    <copyright>Copyright ©2018 Raphael Boissel</copyright>
+    <language>en-US</language>
+    <tags>ratchet msf pdb format io</tags>
+  </metadata>
+</package>

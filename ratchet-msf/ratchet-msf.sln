@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-msf", "ratchet-msf\ratchet-msf.csproj", "{972D4E28-E74E-489C-B376-2B6686DC2681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{9E56C481-156E-4DF9-AD45-E5BBB0D88420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckMSF", "..\Samples\CheckMSF\CheckMSF.csproj", "{06989864-2D74-4913-B365-8784D91DE9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EF6FDEC9-EE97-4D09-8D4A-045950FA3DA9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Build\Ratchet.IO.Format.MSF.nuspec = ..\Build\Ratchet.IO.Format.MSF.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-msf-net45", "..\Build\ratchet-msf-net45\ratchet-msf-net45.csproj", "{A12CC625-C863-4EC2-99EF-DE51F9474219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-msf-net40", "..\Build\ratchet-msf-net40\ratchet-msf-net40.csproj", "{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{972D4E28-E74E-489C-B376-2B6686DC2681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D4E28-E74E-489C-B376-2B6686DC2681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D4E28-E74E-489C-B376-2B6686DC2681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D4E28-E74E-489C-B376-2B6686DC2681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06989864-2D74-4913-B365-8784D91DE9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06989864-2D74-4913-B365-8784D91DE9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06989864-2D74-4913-B365-8784D91DE9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06989864-2D74-4913-B365-8784D91DE9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12CC625-C863-4EC2-99EF-DE51F9474219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12CC625-C863-4EC2-99EF-DE51F9474219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12CC625-C863-4EC2-99EF-DE51F9474219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12CC625-C863-4EC2-99EF-DE51F9474219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06989864-2D74-4913-B365-8784D91DE9F2} = {9E56C481-156E-4DF9-AD45-E5BBB0D88420}
+		{A12CC625-C863-4EC2-99EF-DE51F9474219} = {EF6FDEC9-EE97-4D09-8D4A-045950FA3DA9}
+		{FCD23249-27E6-4F28-9A39-35E3EA4C51E5} = {EF6FDEC9-EE97-4D09-8D4A-045950FA3DA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4388BCFB-DD7E-4012-98E7-0F23029FCC96}
+	EndGlobalSection
+EndGlobal
