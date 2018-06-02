@@ -7,8 +7,8 @@
     <ProjectGuid>{FCD23249-27E6-4F28-9A39-35E3EA4C51E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ratchet_msf_net40</RootNamespace>
-    <AssemblyName>ratchet-msf-net40</AssemblyName>
+    <RootNamespace>ratchet_msf</RootNamespace>
+    <AssemblyName>ratchet-msf</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
